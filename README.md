@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Homework 1 (Color-Transfer and Texture-Transfer)
 
 A clean and readable Pytorch implementation of CycleGAN (https://arxiv.org/abs/1703.10593)

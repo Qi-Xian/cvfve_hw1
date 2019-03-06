@@ -82,7 +82,7 @@ Examples of the generated outputs (default params) apple2orange, summer2winter_y
 
 ![Alt text](./output/imgs/0035.png)
 ![Alt text](./output/imgs/0111.png)
-![Alt text](./output/imgs/0067.png)
+![Alt text](./output/imgs/0167.png)
 
 
 

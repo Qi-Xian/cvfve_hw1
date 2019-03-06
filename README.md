@@ -85,9 +85,17 @@ Examples of the generated outputs (default params) apple2orange, summer2winter_y
 
 Next we use our Personal image to test.
 
+output/apple2orange/A folder：
+
 ![Alt text](./output/apple2orange/A/0001.png)
-![Alt text](./output/imgs/0111.png)
-![Alt text](./output/imgs/0167.png)
+![Alt text](./output/apple2orange/A/0002.png)
+![Alt text](./output/apple2orange/A/0003.png)
+
+output/apple2orange/B folder：
+
+![Alt text](./output/apple2orange/B/0001.png)
+![Alt text](./output/apple2orange/B/0002.png)
+![Alt text](./output/apple2orange/B/0003.png)
 
 ## Acknowledgments
 

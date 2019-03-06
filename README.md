@@ -101,12 +101,12 @@ After using CycleGAN for train and test, we also use the approach of fast coler 
 
 Source -----> Target-------> Result
 
-![Alt text](./output/color_transfer/applecombined1.jpeg)
-![Alt text](./output/color_transfer/applecombined2.jpeg)
-![Alt text](./output/color_transfer/applecombined3.jpeg)
-![Alt text](./output/color_transfer/orangecombined1.jpeg)
-![Alt text](./output/color_transfer/orangecombined2.jpeg)
-![Alt text](./output/color_transfer/orangecombined3.jpeg)
+![Alt text](./color_transfer/applecombined1.jpeg)
+![Alt text](./color_transfer/applecombined2.jpeg)
+![Alt text](./color_transfer/applecombined3.jpeg)
+![Alt text](./color_transfer/orangecombined1.jpeg)
+![Alt text](./color_transfer/orangecombined2.jpeg)
+![Alt text](./color_transfer/orangecombined3.jpeg)
 
 ## Acknowledgments
 

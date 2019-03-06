@@ -85,7 +85,7 @@ Examples of the generated outputs (default params) apple2orange, summer2winter_y
 
 Next we use our Personal image to test.
 
-![Alt text](./output/imgs/0035.png)
+![Alt text](./output/apple2orange/A/0001.png)
 ![Alt text](./output/imgs/0111.png)
 ![Alt text](./output/imgs/0167.png)
 

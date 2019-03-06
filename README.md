@@ -79,16 +79,19 @@ This command will take the images under the ```dataroot/testA/``` and ```dataroo
 
 Examples of the generated outputs (default params) apple2orange, summer2winter_yosemite, horse2zebra dataset:
 
-![Alt text](./output/apple2roange/A/0001.png)
+
 ![Alt text](./output/imgs/0035.png)
 ![Alt text](./output/imgs/0111.png)
+![Alt text](./output/imgs/0067.png)
 
 
 
 ## Acknowledgments
+
 Code is modified by [PyTorch-CycleGAN](https://github.com/aitorzip/PyTorch-CycleGAN). All credit goes to the authors of [CycleGAN](https://arxiv.org/abs/1703.10593), Zhu, Jun-Yan and Park, Taesung and Isola, Phillip and Efros, Alexei A.
-=======
+
 # cvfve_hw1
+
 **reference:**
 [Super fast color transfer between images](https://github.com/jrosebr1/color_transfer)
 

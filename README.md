@@ -108,11 +108,13 @@ Source -----> Target-------> Result
 ![Alt text](./color_transfer/orangecombined2.jpeg)
 ![Alt text](./color_transfer/orangecombined3.jpeg)
 
+**references:**
+[Super fast color transfer between images](https://github.com/jrosebr1/color_transfer)
+
 ## Acknowledgments
 
 Code is modified by [PyTorch-CycleGAN](https://github.com/aitorzip/PyTorch-CycleGAN). All credit goes to the authors of [CycleGAN](https://arxiv.org/abs/1703.10593), Zhu, Jun-Yan and Park, Taesung and Isola, Phillip and Efros, Alexei A.
 
 
-**references:**
-[Super fast color transfer between images](https://github.com/jrosebr1/color_transfer)
+
 

@@ -97,12 +97,22 @@ output/apple2orange/B folder：
 ![Alt text](./output/apple2orange/B/0002.png)
 ![Alt text](./output/apple2orange/B/0003.png)
 
+After using CycleGAN for train and test, we also use the approach of fast coler transfer to compare.
+
+Source -----> Target-------> Result
+
+![Alt text](./output/color_transfer/applecombined1.jpeg)
+![Alt text](./output/color_transfer/applecombined2.jpeg)
+![Alt text](./output/color_transfer/applecombined3.jpeg)
+![Alt text](./output/color_transfer/orangecombined1.jpeg)
+![Alt text](./output/color_transfer/orangecombined2.jpeg)
+![Alt text](./output/color_transfer/orangecombined3.jpeg)
+
 ## Acknowledgments
 
 Code is modified by [PyTorch-CycleGAN](https://github.com/aitorzip/PyTorch-CycleGAN). All credit goes to the authors of [CycleGAN](https://arxiv.org/abs/1703.10593), Zhu, Jun-Yan and Park, Taesung and Isola, Phillip and Efros, Alexei A.
 
-# cvfve_hw1
 
-**reference:**
+**references:**
 [Super fast color transfer between images](https://github.com/jrosebr1/color_transfer)
 

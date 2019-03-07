@@ -5,7 +5,7 @@ Using Pytorch for implementation of CycleGAN (https://arxiv.org/abs/1703.10593)
 ## Goal
 1.  (Training cycleGAN)
 2.  (Inference cycleGAN in personal image)
-3.  (Compare with other method)
+3.  (Compare with other method), This method called **fast-coler transfer**
 
 ## Getting Started
 Please firstly install [Anaconda](https://anaconda.org), if you not understand how to install whole procedures on Ubuntu system, you can take this [link](https://stackoverflow.com/questions/28852841/install-anaconda-on-ubuntu-via-command-line) as reference.

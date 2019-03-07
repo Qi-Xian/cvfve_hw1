@@ -100,6 +100,10 @@ output/apple2orange/B folder：
 
 After using CycleGAN for train and test, we also use the approach of **fast-coler transfer** to compare.
 
+###Requirements
+- OpenCV
+- boost/program_options*
+
 ------------------------> **Source**  ------------------------> **Target** ------------------------> **Result**
 
 ![Alt text](./color_transfer/applecombined1.jpeg)

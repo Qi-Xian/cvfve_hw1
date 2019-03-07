@@ -1,6 +1,6 @@
 # Color-Tranfer Project
 
-A clean and readable Pytorch implementation of CycleGAN (https://arxiv.org/abs/1703.10593)
+Using Pytorch for implementation of CycleGAN (https://arxiv.org/abs/1703.10593)
 
 ## Goal
 1.  (Training cycleGAN)
@@ -22,7 +22,7 @@ After you create the environment, activate it.
 source activate hw1
 ```
 
-Our current implementation supports GPU Card (Such as GTX-1060 up), you need to have one GPU (like GTX-1080-ti) and have CUDA libraries installed on your machine. 
+Our current implementation supports GPU Card (Such as GTX-1060 up), you must have one GPU (like GTX-1080 ti) and have CUDA libraries installed on your machine. 
 
 **(Don't use VMs running on Ubuntu Operation, because VMs can not get the real GPU card)**
 
@@ -57,6 +57,7 @@ Alternatively you can build your own dataset by setting up the following directo
 ### 2. Train
 
 Start to train, type the command as follow: 
+
 ```
 python train.py --dataroot datasets/<dataset_name>/ --cuda
 ```
@@ -83,9 +84,9 @@ Examples of the generated outputs (default params) apple2orange, summer2winter_y
 ![Alt text](./output/imgs/0111.png)
 ![Alt text](./output/imgs/0167.png)
 
-Next we use our Personal image to test.
+**Next we use our Personal image to test.**
 
-output/apple2orange/A folder：
+output/apple2orange/A folder, we test 3 pictures：
 
 ![Alt text](./output/apple2orange/A/0001.png)
 ![Alt text](./output/apple2orange/A/0002.png)
@@ -97,9 +98,9 @@ output/apple2orange/B folder：
 ![Alt text](./output/apple2orange/B/0002.png)
 ![Alt text](./output/apple2orange/B/0003.png)
 
-After using CycleGAN for train and test, we also use the approach of fast coler transfer to compare.
+After using CycleGAN for train and test, we also use the approach of **fast-coler transfer** to compare.
 
-Source -----> Target-------> Result
+------------ Source  ------------> Target ------------> Result
 
 ![Alt text](./color_transfer/applecombined1.jpeg)
 ![Alt text](./color_transfer/applecombined2.jpeg)

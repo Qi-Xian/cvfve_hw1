@@ -100,7 +100,7 @@ output/apple2orange/B folder：
 
 After using CycleGAN for train and test, we also use the approach of **fast-coler transfer** to compare.
 
------------- Source  ------------> Target ------------> Result
+------------------------> **Source**  ------------------------> **Target** ------------------------> **Result**
 
 ![Alt text](./color_transfer/applecombined1.jpeg)
 ![Alt text](./color_transfer/applecombined2.jpeg)

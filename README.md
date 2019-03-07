@@ -104,6 +104,8 @@ After using CycleGAN for train and test, we also use the approach of **fast-cole
 - OpenCV
 - boost/program_options*
 
+### Running the tests, we have three parts of source, Target, Result:
+
 ------------------------> **Source**  ------------------------> **Target** ------------------------> **Result**
 
 ![Alt text](./color_transfer/applecombined1.jpeg)
@@ -113,7 +115,7 @@ After using CycleGAN for train and test, we also use the approach of **fast-cole
 ![Alt text](./color_transfer/orangecombined2.jpeg)
 ![Alt text](./color_transfer/orangecombined3.jpeg)
 
-**references:**
+### References:
 [Super fast color transfer between images](https://github.com/jrosebr1/color_transfer)
 
 ## Acknowledgments

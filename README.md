@@ -116,6 +116,20 @@ After using CycleGAN for train and test, we also use the approach of **fast-cole
 ![Alt text](./color_transfer/orangecombined2.jpeg)
 ![Alt text](./color_transfer/orangecombined3.jpeg)
 
+### 原理
+
+1、RGB三通道有很強的關聯性，而做顏色的改變同時恰當地改變三通道比較困難。
+
+2、需要尋找三通道互不相關的也就是正交的顏色空間，作者想到了Ruderman等人提出的lαβ顏色空間。三個軸向正交意味著改變任何一個通道都不影響其他通道，從而能夠較好的保持原圖的自然效果。三個通道分別代表：亮度，黃藍通道，紅綠通道。
+
+顏色遷移算法步驟：
+
+RGB->LMS->對數LMS->lαβ->對數LMS->LMS->RGB，在lαβ上進行適當的變換。
+
+RGB->LMS分為兩步：RGB->XYZ->LMS
+
+
+
 ### References:
 [Super fast color transfer between images](https://github.com/jrosebr1/color_transfer)
 

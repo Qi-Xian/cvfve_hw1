@@ -7,7 +7,7 @@ Using Pytorch for implementation of CycleGAN (https://arxiv.org/abs/1703.10593)
 2.  (Inference cycleGAN in personal image)
 3.  (Compare with other method), This method called **fast-coler transfer**
 
-## Getting Started
+## Getting Started（實作步驟）
 Please firstly install [Anaconda](https://anaconda.org), if you not understand how to install whole procedures on Ubuntu system, you can take this [link](https://stackoverflow.com/questions/28852841/install-anaconda-on-ubuntu-via-command-line) as reference.
 
 
@@ -26,8 +26,8 @@ Our current implementation supports GPU Card (Such as GTX-1060 up), you must hav
 
 **(Don't use VMs running on Ubuntu Operation, because VMs can not get the real GPU card)**
 
-## Training
-### 1. Download dataset
+## Training（開始訓練）
+### 1. Download dataset（下載資料集）
 
 your need to create one folder named datasets
 ```
@@ -54,7 +54,7 @@ Alternatively you can build your own dataset by setting up the following directo
     |   |   ├── testA              # Testing
     |   |   └── testB              # Testing
     
-### 2. Train
+### 2. Train（訓練）
 
 Start to train, type the command as follow: 
 
@@ -68,7 +68,7 @@ Both generators and discriminators weights will be saved ```./output/<dataset_na
 
 **If you don't own one GPU, remove the --cuda option, but you had better get one, becaue it is faster than CPU !**
 
-## Testing
+## Testing（測試）
 After training, we can start to test.
 
 The pre-trained file is on [Google drive](https://drive.google.com/open?id=17FREtttCyFpvjRJxd4v3VVlVAu__Y5do). Download the file and save it on  ```./output/<dataset_name>/netG_A2B.pth``` and ```./output/<dataset_name>/netG_B2A.pth```. 
@@ -100,17 +100,18 @@ output/apple2orange/B folder：
 
 After using CycleGAN for train and test, we also use the approach of **fast-coler transfer** to compare.
 
-### Requirements
+### Requirements（需求）
 - OpenCV
 - boost/program_options*
 
 ### Running the tests, we have three parts of source, Target, Result:
 
 ------------------------> **Source**  ------------------------> **Target** ------------------------> **Result**
-
+如下所述，我們將使用Source, 將Source的照片風格元素transfer至Target，最後第三張產生對應的結果。
 ![Alt text](./color_transfer/applecombined1.jpeg)
 ![Alt text](./color_transfer/applecombined2.jpeg)
 ![Alt text](./color_transfer/applecombined3.jpeg)
+
 ![Alt text](./color_transfer/orangecombined1.jpeg)
 ![Alt text](./color_transfer/orangecombined2.jpeg)
 ![Alt text](./color_transfer/orangecombined3.jpeg)
